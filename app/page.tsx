@@ -1,5 +1,3 @@
-"use client";
-
 import { Button } from "@/components/ui/button";
 import { Photo, Schema, cms } from "@/lib/directus";
 import Image from "next/image";

@@ -1,5 +1,3 @@
-"use client";
-
 import { Photo, Schema, cms } from "@/lib/directus";
 import { QueryFields, readItems } from "@directus/sdk";
 import ImageGrid from "./image-grid";
