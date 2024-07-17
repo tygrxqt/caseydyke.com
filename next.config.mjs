@@ -27,8 +27,8 @@ const nextConfig = {
 };
 
 const ContentSecurityPolicy = `
-    default-src 'self' vercel.live analytics.caseydyke.com;
-    script-src 'self' 'unsafe-eval' 'unsafe-inline' vercel.live analytics.caseydyke.com;
+    default-src 'self' vercel.live analytics.caseydyke.com cms.caseydyke.com;
+    script-src 'self' 'unsafe-eval' 'unsafe-inline' vercel.live analytics.caseydyke.com cms.caseydyke.com;
     style-src 'self' 'unsafe-inline';
     img-src * blob: data:;
     media-src 'none';
